@@ -38,6 +38,10 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 
+builder.Services.AddScoped<IBudgetRepository, BudgetRepository>();
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 // 2. Görsel Swagger arayüzü servislerini ekliyoruz
 builder.Services.AddEndpointsApiExplorer();
 // 2. Görsel Swagger arayüzü servislerini (JWT Destekli) ekliyoruz
@@ -76,7 +80,6 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZenBudget.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fbcdbc34fedd373533f28808bfe9f32b6a2594e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+303802391f159fa76c2e9c1064fed4f90c8d910f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZenBudget.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZenBudget.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

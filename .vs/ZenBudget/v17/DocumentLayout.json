@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\all_projects\\fintech_project\\fintech_backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|solutionrelative:zenbudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|solutionrelative:zenbudget.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D577683C-B948-4043-B39A-F272A5C96CFB}|ZenBudget.Domain\\ZenBudget.Domain.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.domain\\interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D577683C-B948-4043-B39A-F272A5C96CFB}|ZenBudget.Domain\\ZenBudget.Domain.csproj|solutionrelative:zenbudget.domain\\interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA12CB5-1EE0-4341-8893-807F03B4EE4D}|ZenBudget.Application\\ZenBudget.Application.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.application\\dtos\\budgetdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA12CB5-1EE0-4341-8893-807F03B4EE4D}|ZenBudget.Application\\ZenBudget.Application.csproj|solutionrelative:zenbudget.application\\dtos\\budgetdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63956600-613D-466E-98AF-C71AF2002223}|ZenBudget.Infrastructure\\ZenBudget.Infrastructure.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.infrastructure\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63956600-613D-466E-98AF-C71AF2002223}|ZenBudget.Infrastructure\\ZenBudget.Infrastructure.csproj|solutionrelative:zenbudget.infrastructure\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|solutionrelative:zenbudget.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EA12CB5-1EE0-4341-8893-807F03B4EE4D}|ZenBudget.Application\\ZenBudget.Application.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.application\\dtos\\dashboardsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EA12CB5-1EE0-4341-8893-807F03B4EE4D}|ZenBudget.Application\\ZenBudget.Application.csproj|solutionrelative:zenbudget.application\\dtos\\dashboardsummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|solutionrelative:zenbudget.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4774DD14-F8A8-4A55-BD28-6E16BB798A65}|ZenBudget.API\\ZenBudget.API.csproj|c:\\all_projects\\fintech_project\\fintech_backend\\zenbudget.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +74,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "ZenBudget.API\\Controllers\\BudgetController.cs",
+              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "ZenBudget.API\\Controllers\\BudgetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:09:23.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBudgetRepository.cs",
+              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Domain\\Interfaces\\IBudgetRepository.cs",
+              "RelativeDocumentMoniker": "ZenBudget.Domain\\Interfaces\\IBudgetRepository.cs",
+              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Domain\\Interfaces\\IBudgetRepository.cs",
+              "RelativeToolTip": "ZenBudget.Domain\\Interfaces\\IBudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:08:53.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BudgetDTOs.cs",
+              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Application\\DTOs\\BudgetDTOs.cs",
+              "RelativeDocumentMoniker": "ZenBudget.Application\\DTOs\\BudgetDTOs.cs",
+              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Application\\DTOs\\BudgetDTOs.cs",
+              "RelativeToolTip": "ZenBudget.Application\\DTOs\\BudgetDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:07:56.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Infrastructure\\Repositories\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "ZenBudget.Infrastructure\\Repositories\\BudgetRepository.cs",
+              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Infrastructure\\Repositories\\BudgetRepository.cs",
+              "RelativeToolTip": "ZenBudget.Infrastructure\\Repositories\\BudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:07:13.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "ZenBudget.API\\Controllers\\DashboardController.cs",
@@ -75,7 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Program.cs",
+              "RelativeDocumentMoniker": "ZenBudget.API\\Program.cs",
+              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Program.cs",
+              "RelativeToolTip": "ZenBudget.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:32:29.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TransactionRepository.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Infrastructure\\Repositories\\TransactionRepository.cs",
               "RelativeDocumentMoniker": "ZenBudget.Infrastructure\\Repositories\\TransactionRepository.cs",
@@ -83,16 +168,11 @@
               "RelativeToolTip": "ZenBudget.Infrastructure\\Repositories\\TransactionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:55:52.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-02-24T13:55:52.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DashboardSummaryResponse.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Application\\DTOs\\DashboardSummaryResponse.cs",
               "RelativeDocumentMoniker": "ZenBudget.Application\\DTOs\\DashboardSummaryResponse.cs",
@@ -100,12 +180,11 @@
               "RelativeToolTip": "ZenBudget.Application\\DTOs\\DashboardSummaryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:53:23.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:53:23.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CreateCategoryRequest.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Application\\DTOs\\CreateCategoryRequest.cs",
               "RelativeDocumentMoniker": "ZenBudget.Application\\DTOs\\CreateCategoryRequest.cs",
@@ -113,12 +192,11 @@
               "RelativeToolTip": "ZenBudget.Application\\DTOs\\CreateCategoryRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:48:38.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:48:38.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Infrastructure\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "ZenBudget.Infrastructure\\Repositories\\CategoryRepository.cs",
@@ -126,12 +204,11 @@
               "RelativeToolTip": "ZenBudget.Infrastructure\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:47:55.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:47:55.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Domain\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "ZenBudget.Domain\\Interfaces\\ICategoryRepository.cs",
@@ -139,12 +216,11 @@
               "RelativeToolTip": "ZenBudget.Domain\\Interfaces\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:47:16.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:47:16.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Domain\\Interfaces\\ITransactionRepository.cs",
               "RelativeDocumentMoniker": "ZenBudget.Domain\\Interfaces\\ITransactionRepository.cs",
@@ -152,12 +228,11 @@
               "RelativeToolTip": "ZenBudget.Domain\\Interfaces\\ITransactionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:37:17.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T12:37:17.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ZenBudget.API\\Controllers\\CategoryController.cs",
@@ -165,12 +240,11 @@
               "RelativeToolTip": "ZenBudget.API\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:49:26.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:49:26.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "TransactionController.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Controllers\\TransactionController.cs",
               "RelativeDocumentMoniker": "ZenBudget.API\\Controllers\\TransactionController.cs",
@@ -178,25 +252,11 @@
               "RelativeToolTip": "ZenBudget.API\\Controllers\\TransactionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:12:16.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:12:16.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Program.cs",
-              "RelativeDocumentMoniker": "ZenBudget.API\\Program.cs",
-              "ToolTip": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.API\\Program.cs",
-              "RelativeToolTip": "ZenBudget.API\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T09:32:29.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "TransactionType.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Domain\\Entities\\TransactionType.cs",
               "RelativeDocumentMoniker": "ZenBudget.Domain\\Entities\\TransactionType.cs",
@@ -204,12 +264,11 @@
               "RelativeToolTip": "ZenBudget.Domain\\Entities\\TransactionType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T13:18:31.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T13:18:31.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CreateTransactionRequest.cs",
               "DocumentMoniker": "C:\\all_projects\\fintech_project\\fintech_backend\\ZenBudget.Application\\DTOs\\CreateTransactionRequest.cs",
               "RelativeDocumentMoniker": "ZenBudget.Application\\DTOs\\CreateTransactionRequest.cs",
