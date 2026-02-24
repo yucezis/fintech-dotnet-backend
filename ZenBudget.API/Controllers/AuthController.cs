@@ -1,5 +1,9 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using ZenBudget.Application.DTOs;
 using ZenBudget.Domain.Entities;
 using ZenBudget.Infrastructure.Persistence;
@@ -7,14 +11,16 @@ using ZenBudget.Infrastructure.Persistence;
 namespace ZenBudget.API.Controllers;
 
 [ApiController]
-[Route("api/v1/auth")] 
+[Route("api/v1/auth")]
 public class AuthController : ControllerBase
 {
     private readonly AppDbContext _context;
+    private readonly IConfiguration _configuration;
 
-    public AuthController(AppDbContext context)
+    public AuthController(AppDbContext context, IConfiguration configuration)
     {
         _context = context;
+        _configuration = configuration;
     }
 
     [HttpPost("register")]
@@ -46,6 +52,41 @@ public class AuthController : ControllerBase
         if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
             return Unauthorized("E-posta veya þifre hatalý.");
 
-        return Ok(new { message = "Giriþ baþarýlý!", userId = user.Id, fullName = user.FullName });
+        var token = GenerateJwtToken(user);
+
+        return Ok(new
+        {
+            message = "Giriþ baþarýlý!",
+            token = token,
+            userId = user.Id,
+            fullName = user.FullName
+        });
+    }
+
+    private string GenerateJwtToken(User user)
+    {
+        var jwtSettings = _configuration.GetSection("Jwt");
+        var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]!);
+
+        var claims = new[]
+        {
+            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+            new Claim(JwtRegisteredClaimNames.Email, user.Email),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        };
+
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(claims),
+            Expires = DateTime.UtcNow.AddHours(2), 
+            Issuer = jwtSettings["Issuer"],
+            Audience = jwtSettings["Audience"],
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
+
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+
+        return tokenHandler.WriteToken(token);
     }
 }

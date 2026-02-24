@@ -167,3 +167,8 @@ C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\obj\Debug\net9.0\Z
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\obj\Debug\net9.0\ZenBudget.API.genruntimeconfig.cache
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\obj\Debug\net9.0\ref\ZenBudget.API.dll
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
