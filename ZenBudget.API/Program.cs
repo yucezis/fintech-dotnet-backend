@@ -12,6 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 // 1. Controller servislerini ekliyoruz (AuthController'ý tanýmasý için þart)
 builder.Services.AddControllers();
 
+// Redis Cache Entegrasyonu
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("RedisConnection");
+    options.InstanceName = "ZenBudget_"; // Cache anahtarlarýnýn baþýna bu ismi ekler
+});
+
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var secretKey = jwtSettings["Key"];
 
