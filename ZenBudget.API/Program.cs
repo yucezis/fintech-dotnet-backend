@@ -6,6 +6,7 @@ using ZenBudget.Domain.Interfaces;
 using ZenBudget.Infrastructure.Persistence;
 using ZenBudget.Infrastructure.Repositories;
 using Microsoft.OpenApi.Models;
+using ZenBudget.API.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -99,6 +100,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 

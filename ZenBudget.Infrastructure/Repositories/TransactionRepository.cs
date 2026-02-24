@@ -55,4 +55,19 @@ public class TransactionRepository : ITransactionRepository
             .Where(t => t.UserId == userId && t.Date.Year == year && t.Date.Month == month)
             .ToListAsync();
     }
+
+    public async Task<(IEnumerable<Transaction> Items, int TotalCount)> GetPagedTransactionsAsync(Guid userId, int page, int pageSize)
+    {
+        var query = _context.Transactions.Where(t => t.UserId == userId);
+
+        var totalCount = await query.CountAsync();
+
+        var items = await query
+            .OrderByDescending(t => t.Date) 
+            .Skip((page - 1) * pageSize)    
+            .Take(pageSize)                 
+            .ToListAsync();
+
+        return (items, totalCount);
+    }
 }

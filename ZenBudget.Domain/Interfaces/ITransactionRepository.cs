@@ -13,4 +13,5 @@ public interface ITransactionRepository
     Task UpdateAsync(Transaction transaction);
     Task DeleteAsync(Guid id);
     Task<IEnumerable<Transaction>> GetMonthlyTransactionsAsync(Guid userId, int year, int month);
+    Task<(IEnumerable<Transaction> Items, int TotalCount)> GetPagedTransactionsAsync(Guid userId, int page, int pageSize);
 }

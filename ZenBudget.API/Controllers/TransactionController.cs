@@ -44,10 +44,21 @@ public class TransactionController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetMyTransactions()
+    public async Task<IActionResult> GetMyTransactions([FromQuery] int page = 1, [FromQuery] int pageSize = 20)
     {
-        var userId = GetUserId(); 
-        var transactions = await _repository.GetByUserIdAsync(userId);
-        return Ok(transactions);
+        var userId = GetUserId();
+        var (items, totalCount) = await _repository.GetPagedTransactionsAsync(userId, page, pageSize);
+
+        var paginationResult = new
+        {
+            Items = items,
+            TotalCount = totalCount,
+            Page = page,
+            PageSize = pageSize,
+            TotalPages = (int)Math.Ceiling(totalCount / (double)pageSize)
+        };
+
+        // Veriyi o havalı Wrapper'ımız ile sarıp gönderiyoruz!
+        return Ok(ApiResponse<object>.SuccessResponse(paginationResult, "İşlemler başarıyla listelendi."));
     }
 }
