@@ -12,4 +12,5 @@ public interface ITransactionRepository
     Task AddAsync(Transaction transaction);
     Task UpdateAsync(Transaction transaction);
     Task DeleteAsync(Guid id);
+    Task<IEnumerable<Transaction>> GetMonthlyTransactionsAsync(Guid userId, int year, int month);
 }

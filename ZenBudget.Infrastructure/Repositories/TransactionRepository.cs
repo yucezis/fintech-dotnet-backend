@@ -47,4 +47,12 @@ public class TransactionRepository : ITransactionRepository
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<IEnumerable<Transaction>> GetMonthlyTransactionsAsync(Guid userId, int year, int month)
+    {
+        return await _context.Transactions
+            .Include(t => t.Category)
+            .Where(t => t.UserId == userId && t.Date.Year == year && t.Date.Month == month)
+            .ToListAsync();
+    }
 }

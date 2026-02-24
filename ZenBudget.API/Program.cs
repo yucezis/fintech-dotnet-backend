@@ -76,6 +76,8 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 var app = builder.Build();
 
 // HTTP istek boru hattýný yapýlandýrýyoruz (Pipeline)
@@ -92,5 +94,4 @@ app.UseAuthorization();
 
 // 4. Yazdýðýmýz Controller'larýn rotalarýný sisteme haritalýyoruz
 app.MapControllers();
-
 app.Run();
