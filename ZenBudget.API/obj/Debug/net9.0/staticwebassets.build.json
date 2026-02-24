@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZhQWpjL+pxVPZKlxfZrQI+QEbjVw85HJf6weFYtaw/4=",
+  "Source": "ZenBudget.API",
+  "BasePath": "_content/ZenBudget.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

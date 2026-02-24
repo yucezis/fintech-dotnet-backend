@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ZenBudget.Application/1.0.0": {
+        "dependencies": {
+          "ZenBudget.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ZenBudget.Application.dll": {}
+        }
+      },
+      "ZenBudget.Domain/1.0.0": {
+        "runtime": {
+          "ZenBudget.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZenBudget.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZenBudget.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

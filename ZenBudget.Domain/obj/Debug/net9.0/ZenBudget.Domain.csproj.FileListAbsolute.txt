@@ -1,0 +1,12 @@
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\bin\Debug\net9.0\ZenBudget.Domain.deps.json
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\bin\Debug\net9.0\ZenBudget.Domain.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\bin\Debug\net9.0\ZenBudget.Domain.pdb
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.AssemblyInfoInputs.cache
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.AssemblyInfo.cs
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.csproj.CoreCompileInputs.cache
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.sourcelink.json
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\refint\ZenBudget.Domain.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ZenBudget.Domain.pdb
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.Domain\obj\Debug\net9.0\ref\ZenBudget.Domain.dll
