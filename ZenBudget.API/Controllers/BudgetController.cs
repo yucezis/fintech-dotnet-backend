@@ -71,7 +71,7 @@ public class BudgetController : ControllerBase
             Year = b.Year,
             // Sadece bu kategoriye ait olan "Gider" (Expense) türündeki işlemlerin tutarlarını topla
             SpentAmount = transactions
-                .Where(t => t.CategoryId == b.CategoryId && t.Type == TransactionType.Expense)
+                .Where(t => t.CategoryId == b.CategoryId && t.type == TransactionType.Expense)
                 .Sum(t => t.Amount)
         }).ToList();
 

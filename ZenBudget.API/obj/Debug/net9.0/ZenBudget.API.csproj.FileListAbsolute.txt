@@ -172,3 +172,6 @@ C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\M
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\Pipelines.Sockets.Unofficial.dll
+C:\all_projects\fintech_project\fintech_backend\ZenBudget.API\bin\Debug\net9.0\StackExchange.Redis.dll
