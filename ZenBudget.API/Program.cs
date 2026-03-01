@@ -23,22 +23,41 @@ builder.Services.AddStackExchangeRedisCache(options =>
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 var secretKey = jwtSettings["Key"];
 
+// ?? ESKÝ KODUNU BUNUNLA DEÐÝÞTÝR ??
+
 builder.Services.AddAuthentication(options =>
 {
+    // .NET'e kapýda her zaman JWT kullanmasýný açýkça söylüyoruz
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(options =>
 {
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)),
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
         ValidateIssuer = true,
         ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = jwtSettings["Issuer"],
-        ValidAudience = jwtSettings["Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey!))
+
+        // KRÝTÝK DEÐÝÞÝKLÝK: Saat farký esnekliðini siliyoruz (veya varsayýlan olan 5 dk'ya býrakýyoruz)
+        // ClockSkew = TimeSpan.Zero <-- BU SATIRI SÝLDÝK
+    };
+
+    options.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            // Bu Visual Studio Output'ta görünür
+            System.Diagnostics.Debug.WriteLine($"? JWT HATA: {context.Exception.GetType().Name}: {context.Exception.Message}");
+            Console.WriteLine($"? JWT HATA: {context.Exception.GetType().Name}: {context.Exception.Message}");
+            return Task.CompletedTask;
+        }
     };
 });
 

@@ -17,6 +17,38 @@
   },
   {
     "ContainingType": "ZenBudget.API.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/v1/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ZenBudget.Application.DTOs.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenBudget.API.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/v1/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ZenBudget.Application.DTOs.RefreshRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZenBudget.API.Controllers.AuthController",
     "Method": "Register",
     "RelativePath": "api/v1/auth/register",
     "HttpMethod": "POST",
