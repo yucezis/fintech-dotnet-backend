@@ -10,10 +10,11 @@ namespace ZenBudget.Domain.Entities
     public class Category
     {
         public Guid Id { get; set; }
-        public Guid UserId { get; set; }
+        public Guid? UserId { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Icon { get; set; } = string.Empty;
         public string Color {  get; set; } = string.Empty;
+        public bool IsSystem { get; set; } = false;
         public TransactionType Type { get; set; }
 
         public User? User { get; set; }
